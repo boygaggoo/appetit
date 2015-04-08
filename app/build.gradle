@@ -53,4 +53,7 @@ dependencies {
         // exclusion is not necessary, but generally a good idea.
         exclude group: 'com.google.android', module: 'support-v4'
     }
+    dependencies {
+        compile 'com.github.kikoso:SwipeableCards:1.1-RELEASE@aar'
+    }
 }
